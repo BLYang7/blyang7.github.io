@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdf88159-ad0b-436f-8426-5104fc957e8b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/404.html" afterPath="$PROJECT_DIR$/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
     </list>
     <ignored path="blyang7.github.io.iws" />
@@ -59,8 +56,8 @@
       <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35875216">
-              <caret line="4" column="22800" selection-start-line="4" selection-start-column="22800" selection-end-line="4" selection-end-column="22800" />
+            <state vertical-scroll-proportion="0.3847487">
+              <caret line="4" column="23050" selection-start-line="4" selection-start-column="23050" selection-end-line="4" selection-end-column="23050" />
               <folding />
             </state>
           </provider>
@@ -510,8 +507,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35875216">
-          <caret line="4" column="22800" selection-start-line="4" selection-start-column="22800" selection-end-line="4" selection-end-column="22800" />
+        <state vertical-scroll-proportion="0.3847487">
+          <caret line="4" column="23050" selection-start-line="4" selection-start-column="23050" selection-end-line="4" selection-end-column="23050" />
           <folding />
         </state>
       </provider>
