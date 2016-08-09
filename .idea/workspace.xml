@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fdf88159-ad0b-436f-8426-5104fc957e8b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/comment.html" afterPath="$PROJECT_DIR$/_includes/comment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
     </list>
     <ignored path="blyang7.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
