@@ -11,11 +11,11 @@ title: "关于：About"
 * 前端开发、Android应用开发
 * Email: clear_d@163.com
 
-###社交
+
+### 社交
 
 * <p class="contact"><a href="http://weibo.com/2819567272" title="微博联系我"><img src="http://www.sinaimg.cn/blog/developer/wiki/LOGO_32x32.png" width="24" height="24" style="display:inline-block;vertical-align:middle"></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/LippiOuYang" title="Github联系我"><img src="http://www.github.com/favicon.ico" width="24" height="24" style="display:inline-block;vertical-align:middle"></a><br/>
-</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/BLYang7" title="Github联系我"><img src="http://www.github.com/favicon.ico" width="24" height="24" style="display:inline-block;vertical-align:middle"></a><br/></p>
 
 ### 闲言
 
