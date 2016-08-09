@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
   <head>
     <meta name="baidu-site-verification" content="HvuxptDcq6" />
     <meta charset="utf-8">
@@ -14,7 +14,7 @@
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS 
+    <!-- Custom CSS
     <link href="/css/blog.css" rel="stylesheet">-->
     <!-- index css -->
     <link href="/css/index.css" rel="stylesheet">
@@ -32,7 +32,7 @@
 	(function() {
 	  var hm = document.createElement("script");
 	  hm.src = "//hm.baidu.com/hm.js?085fc257cb1e774f7764a2cf527c393d";
-	  var s = document.getElementsByTagName("script")[0]; 
+	  var s = document.getElementsByTagName("script")[0];
 	  s.parentNode.insertBefore(hm, s);
 	})();
 	</script>
@@ -47,7 +47,7 @@
 	</script>
 
   </head>
-  
+
   <body>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
@@ -73,7 +73,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          {% include navigation.html %} 
+          {% include navigation.html %}
         </div>
         <!-- /.navbar-collapse -->
       </div>
@@ -81,7 +81,7 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container" style="padding-bottom: 60px;">
+    <div class="container">
       <div class="row">
 
         <!-- Blog Entries Column -->
@@ -89,17 +89,16 @@
           {{ content }}
         </div>
 
-	 <div id="top" data-toggle="tooltip" data-placement="left" title="回到顶部">
-	      <a href="javascript:;">
-		<div class="arrow"></div>
-		<div class="stick"></div>
-	      </a>
-	    </div>
+	    <div id="top" data-toggle="tooltip" data-placement="left" title="回到顶部">
+	        <a href="javascript:;">
+		    <div class="arrow"></div>
+		    <div class="stick"></div>
+	        </a>
+        </div>
       </div>
-
     </div>
 
-    <div style="bottom: 0; position:absolute; text-align: center; width: 80%; margin-left: 10%; height: 60px;">
+    <div style="bottom: 0; position: relative; text-align: center; width: 80%; margin-left: 10%; height: 60px;">
         <!-- /.row -->
         <hr>
         <!-- Footer -->
