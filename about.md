@@ -12,6 +12,8 @@ title: "关于：About"
 * Email: clear_d@163.com
 
 
+
+
 ### 社交
 
 * <p class="contact"><a href="http://weibo.com/2819567272" title="微博联系我"><img src="http://www.sinaimg.cn/blog/developer/wiki/LOGO_32x32.png" width="24" height="24" style="display:inline-block;vertical-align:middle"></a>
@@ -19,4 +21,9 @@ title: "关于：About"
 
 ### 闲言
 
-* 生命是一场修行，踽踽独行的路上，记得时常仰望星空
+* 友善、自信、寡
+* 这是个不错的家伙
+* 坚信生命是一场修行
+* 正在卯足了劲儿活着
+* 经常奔跑，经常歌唱
+* 也从未忘记仰望星空
