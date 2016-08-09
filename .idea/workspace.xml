@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdf88159-ad0b-436f-8426-5104fc957e8b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/comment.html" afterPath="$PROJECT_DIR$/_includes/comment.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faqs.md" afterPath="$PROJECT_DIR$/faqs.md" />
     </list>
     <ignored path="blyang7.github.io.iws" />
@@ -25,20 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="faqs.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/faqs.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1910828">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.666666">
+            <state vertical-scroll-proportion="0.82408875">
               <caret line="76" column="29" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="29" />
               <folding />
             </state>
@@ -489,18 +477,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
+    <entry file="file://$PROJECT_DIR$/faqs.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.666666">
-          <caret line="76" column="29" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.31050956">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faqs.md">
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1910828">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.82408875">
+          <caret line="76" column="29" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="29" />
           <folding />
         </state>
       </provider>
