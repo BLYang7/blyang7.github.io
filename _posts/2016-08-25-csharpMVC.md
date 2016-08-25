@@ -1,7 +1,7 @@
 ---
 layout: post
 title: C#下的MVC框架
-categories: 框架
+categories: 框架结构
 
 ---
 
@@ -10,17 +10,21 @@ categories: 框架
 ASP.NET的MVC框架和其他框架一致，也是包含Model、View和Controller三部分组成。在网站访问的时候，首先用户能获取到控制器，控制器根据用户行为创建Model对象，在数据填充到Model之后，再传递到View显示层。如下如示
 ![](/images/pages/framework/csharpmvc.png)
 
+<br/>
 #### Controller
 Controller是用来处理用户交互逻辑的，页面上用户的每个动作都是以http请求的形式出现在服务端（注意web编程中是没有事件的概念的，交互都是http请求），而控制器就是处理这些请求，并给出响应的。Model规定了响应的数据格式，而View则集中处理了数据展示形式。
 
 Controller的定义需要注意一下，一定是定义一个控制器，并且这个控制器的命名要以controller结束，一定不要写成了cs文件。Controller处理用户请求并作出响应之后，需要显示在页面上，也就是View中。
 
+<br/>
 #### View
 View就是用户视图了。这里可以是aspx文件，或者是cshtml文件，甚至是简单的html文件，只要能获取到数据就可以。View获取的是Controller中的Model数据，然后将这些数据展示出来。
 
+<br/>
 #### Model
 Model 只是规定了数据格式，预先定义数据字段。而实际的数据填充，则是在Controller实现的。
 
+<br/>
 #### 一个例子
 讲完了这三者的定义，这里给一个例子。C# MVC框架的实现。这个实现中设计Model定义，对象序列化和反序列化，Redis缓存的使用，MongoDB的使用。
 
