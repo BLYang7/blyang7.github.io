@@ -12,6 +12,6 @@ title: "归档：Archives"
 
     <h2>{{ post.date | date: '%Y' }}</h2> {% endif %} 
 	{% endunless %} 
-    <li style="line-height:30px;"><h4><span style="color:#555555">{{ post.date | date_to_string }}</span>&nbsp; &bull; &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></h4></li> 
+    <li style="line-height:30px;"><h4 style="padding-top:5px;"><span style="color:#555555">{{ post.date | date_to_string }}</span>&nbsp; &bull; &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></h4></li> 
 	{% endfor %} 
 </ul> 
