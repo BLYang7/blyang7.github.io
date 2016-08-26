@@ -8,7 +8,7 @@ title: "分类：Categories"
    <a name="{{ cat[0] }}"></a>
    <h3 style="color:#ffffff; background:#888888; padding-left:10px;">{{ cat[0] }}&nbsp; <span style="color:ffffff; font-size:13px">[{{ cat[1].size }}]</span></h3>
      {% for post in cat[1] %} 
-    <li><h4 style="margin-left:10px;padding-top:5px;"><span>{{ post.date | date_to_string }}</span> &nbsp; &bull; &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></h4></li>
+    <li><h4 style="margin-left:10px;line-height:21px;"><span>{{ post.date | date_to_string }}</span> &nbsp; &bull; &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></h4></li>
 	{% endfor %} 
    {% endif %} 
 {% endfor %} 
