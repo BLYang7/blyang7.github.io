@@ -36,3 +36,12 @@ title: "首页：Home"
         <a href="{{ paginator.next_page_path }}">下一页</a>  
     {% endif %}  
 {% endif %}  
+
+
+{% for page in (1..paginator.total_pages) %}  
+    {% if page == 1 %}  
+        <a href="/index.html">{{ page }}</a>  
+    {% else %}  
+        <a href="{{ site.paginate_path | replace: ':num',page }}">{{ page }}</a>  
+    {% endif %}  
+{% endfor %}  
