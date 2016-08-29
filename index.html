@@ -27,6 +27,7 @@ title: "首页：Home"
 	</div>
 </div>
 
+<dic style="float:right;">
 {% if paginator.total_pages > 1 %}  
     {% if paginator.previous_page %}  
         <a href="{{ paginator.previous_page_path }}">上一页</a>  
@@ -45,3 +46,4 @@ title: "首页：Home"
         <a href="{{ site.paginate_path | replace: ':num',page }}">{{ page }}</a>  
     {% endif %}  
 {% endfor %}  
+</div>
