@@ -16,13 +16,34 @@ title: "首页：Home"
         	<div post-cate="All">
         		<ul class="posts">
 					{% for post in paginator.posts %}
-					<li>
-						<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-						<span class="date">{{ post.date | date_to_string }}</span>
+					<li style="list-style:initial;">
+						<h2 style="font-size:20px; margin:0 0 4px 0;"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+						<span class="date" style="margin:0px 0px; ">{{ post.date | date_to_string }}</span>
 					</li>
 					{% endfor %}
 				</ul>
 			</div>
 	 	</div>
 	</div>
+</div>
+
+<dic style="float:right;">
+{% if paginator.total_pages > 1 %}  
+    {% if paginator.previous_page %}  
+        <a href="{{ paginator.previous_page_path }}">上一页</a>  
+    {% endif %}  
+      
+    {% if paginator.next_page %}  
+        <a href="{{ paginator.next_page_path }}">下一页</a>  
+    {% endif %}  
+{% endif %}  
+
+
+{% for page in (1..paginator.total_pages) %}  
+    {% if page == 1 %}  
+        <a href="/index.html">{{ page }}</a>  
+    {% else %}  
+        <a href="{{ site.paginate_path | replace: ':num',page }}">{{ page }}</a>  
+    {% endif %}  
+{% endfor %}  
 </div>
