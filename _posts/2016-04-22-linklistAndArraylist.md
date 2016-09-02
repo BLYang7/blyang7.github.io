@@ -17,6 +17,8 @@ categories: Java语言
 * ArrayList默认构造函数的默认容量是10
 * 两者都是线程不安全的
 
+<br/>
+
 ### 总结
 * ArrayList使用数组实现，随机访问效率高，随机插入、删除的效率低
 * LinkedList使用随机访问效率低，随机插入删除的效率高
