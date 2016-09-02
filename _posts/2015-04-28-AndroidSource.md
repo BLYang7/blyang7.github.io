@@ -10,6 +10,7 @@ categories: Android开发
 **在其他资源中引用资源文件的格式是：@[包名]资源类型/资源名称**
 
 <br/>
+
 #### 颜色资源（Color）
 
 颜色的定义格式是通过RGB三原色和一个alpha值来确定的。#RGB、#ARGB、#RRGGBB、#AARRGGBB
@@ -39,7 +40,9 @@ public void onClick(View v) {
 ```
 
 <br/>
+
 #### 字符串资源（String）
+
 代码中的引用格式是：R.string.string_name。获得字符串资源的方法是：Resources.getString() 
 
 字符串资源的定义格式如下：
@@ -62,7 +65,9 @@ textview.setText(str);
 ```
 
 <br/>
+
 #### 尺寸资源（dimen）
+
 一般尺寸资源的尺寸单位设置为dp，这是一个和密度无关的像素，是相对屏幕物理密度的抽象单位。
         
 在代码中获取尺寸资源的方法是：getResources().getDimension() 在代码中的引用尺寸资源的格式是：R.dimen.dimen_name
@@ -87,6 +92,7 @@ float length = res.getDimension(R.dimen.activity_horizontal_margin);
 ```
 
 <br/>
+
 #### 绘图资源（drawables）
 
 drawable资源是一些图片或者颜色资源，主要用来绘制屏幕。drawable资源分为三类，分别是：位图文件（Bitmap File）、颜色（Color Drawable）、九片图片（Nine-Patch Image）
@@ -102,7 +108,9 @@ imageview.setImageDrawable(draw);
 ```
 
 <br/>
+
 #### 布局文件（layout）
+
 定义方式如下：
 
 ```
@@ -126,7 +134,9 @@ imageview.setImageDrawable(draw);
 ```
 
 <br/>
+
 #### 菜单资源
+
 Android菜单分为选项菜单，上下文菜单和子菜单，都可以在XML文件中声明定义，在代码中通过MenuInflater类使用。
 
 具体的创建方式是定义<menu>根元素，在根元素里面嵌套<item>和<group>子元素。其中<item>是菜单项，包含在<menu>或者<group>中的有效属性。<group>是一个菜单组，相同的菜单组可以一起设置其属性。
