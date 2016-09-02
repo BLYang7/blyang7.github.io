@@ -18,6 +18,7 @@ categories: Android开发
 在代码中的引用格式为：R.color.color_name，调用方法为：Resources.getColor() 
         
 颜色资源的XML定义格式如下：
+
 ```
 <?xml version="1.0" encoding="UTF-8"?>  
 <resources>  
