@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LinkedList 和 ArrayList的区别
-categories: Java语言
+categories: 数据结构和算法
 
 ---
 
