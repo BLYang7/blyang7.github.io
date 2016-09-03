@@ -120,6 +120,12 @@ Socket选项有很多种，都是可以设置的，用来定义Socket的一些�
 * 0x08: 高吞吐量
 * 0x10: 最小延迟
 
+```
+Socket socketd = new Socket(www.javathinker.org, 80);   
+socketd.setTrafficClass(0x08); 
+```
+
+
 <br/>
 
 #### ServerSocket的构造方法
