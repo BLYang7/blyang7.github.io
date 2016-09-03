@@ -5,6 +5,8 @@ categories: Java虚拟机
 
 ---
 
+>整理了一些Java使用过程中的内存管理的一些小技巧
+
 **1、尽量使用直接量**
 
 在创建的时候使用直接量，减少new的过程，比如说 String string = "--string--"; 而不是使用 String string = new String("--string--");
