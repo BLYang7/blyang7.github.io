@@ -2,7 +2,6 @@
 <html lang="en">
 
   <head>
-    <meta name="baidu-site-verification" content="HvuxptDcq6" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,8 +13,6 @@
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS
-    <link href="/css/blog.css" rel="stylesheet">-->
     <!-- index css -->
     <link href="/css/index.css" rel="stylesheet">
 	<!-- pagments CSS-->
@@ -26,25 +23,6 @@
     <script src="/js/bootstrap.min.js"></script>
    <!-- 回到顶部js-->
     <script src="/js/index.js"></script>
-
-	<script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "//hm.baidu.com/hm.js?085fc257cb1e774f7764a2cf527c393d";
-	  var s = document.getElementsByTagName("script")[0];
-	  s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
-
-	<script>
-    (function(){
-     var bp = document.createElement('script');
-	 bp.src = '//push.zhanzhang.baidu.com/push.js';
-	 var s = document.getElementsByTagName("script")[0];
-	 s.parentNode.insertBefore(bp, s);
-	 })();
-	</script>
 
   </head>
 
@@ -75,20 +53,15 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           {% include navigation.html %}
         </div>
-        <!-- /.navbar-collapse -->
       </div>
-      <!-- /.container -->
     </nav>
 
     <!-- Page Content -->
     <div class="container">
       <div class="row">
-
-        <!-- Blog Entries Column -->
         <div class="col-md-8">
           {{ content }}
         </div>
-
 	    <div id="top" data-toggle="tooltip" data-placement="left" title="回到顶部">
 	        <a href="javascript:;">
 		    <div class="arrow"></div>
@@ -99,16 +72,13 @@
     </div>
 
     <div style="bottom: 0; position: relative; text-align: center; width: 80%; margin-left: 10%; height: 60px;">
-        <!-- /.row -->
         <hr>
-        <!-- Footer -->
         <footer>
             {% include copyright.html %}
             {% include analytics.html %}
         </footer>
     </div>
 
-    <!-- /.container -->
   </body>
 
 </html>
